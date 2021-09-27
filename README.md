@@ -119,7 +119,7 @@ Mean Val Accuracy = 0.912
 
 Mean ROC Curve score = 0.985
 
-Private Leaderboard 中分數0.98113，排名27。
+Private Leaderboard分數0.98113，排名27。
 
 <img src="https://github.com/Rainman5042/Tomofun-2021-dog_sounds-classification-competition/blob/main/T_brain%E6%8E%92%E5%90%8D.JPG?raw=true" width=100%>
 
