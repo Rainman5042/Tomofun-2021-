@@ -113,7 +113,13 @@ python train.py
 
 # 訓練結果
 
-平均5個模型的訓練結果 Mean Val Accuracy = 0.912, Mean ROC Curve score = 0.985, 在Private Leaderboard 中分數0.98113，排名27。
+平均 k-fold 交叉驗證5個模型的訓練結果:
+
+Mean Val Accuracy = 0.912 
+
+Mean ROC Curve score = 0.985
+
+Private Leaderboard 中分數0.98113，排名27。
 
 <img src="https://github.com/Rainman5042/Hand-Gesture-Classification/blob/main/hand.JPG?raw=true" width=50%>
 
