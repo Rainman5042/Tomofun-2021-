@@ -102,6 +102,7 @@ python submit.py
 
 讀取已訓練好的模型來預測 public_test & private_test，輸出 final_submissoin.csv，此 csv 為 Private LearderBoard 的最終上傳成績，執行時間約15分鐘。
 
+
 # 訓練模型:
 
 在Powershell prompt輸入以下指令:
@@ -109,4 +110,10 @@ python submit.py
 python train.py
 ```
 使用 RTX 3080 16GB Laptop訓練時間約 5 小時，訓練好的模型權重會儲存在 weight 資料夾中。重新訓練會覆蓋掉原本已訓練好的模型權重，建議備份 weight 資料夾後執行。執行完 train.py 之後重新執行 submit.py 便可使用重新訓練的模型產生 final_submission.csv。
+
+# 訓練結果
+
+平均5個模型的訓練結果 Mean Val Accuracy = 0.912, Mean ROC Curve score = 0.985, 在Private Leaderboard 中分數0.98113，排名27。
+
+<img src="https://github.com/Rainman5042/Hand-Gesture-Classification/blob/main/hand.JPG?raw=true" width=50%>
 
