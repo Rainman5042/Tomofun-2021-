@@ -42,7 +42,7 @@
 
 ．public_test 資料夾 : 10000筆比賽提供的 public_leaderboard 音檔
 
-          (以上比賽所提供的訓練資料基於比賽協議無法提供)
+          (以上比賽資料基於比賽協議無法提供)
 
 ．mp 資料夾 : MixGenerator套件
 
